@@ -155,7 +155,14 @@
 // }
 // converter(100,"fahrenheit");
 
-const person = ["reading","fishing","travaling"]
-for ( key of person){
-console.log(key);
-} 
+// const person = ["reading","fishing","travaling"]
+// for ( key of person){
+// console.log(key);
+// } 
+
+let num = 11;
+do {
+    console.log(num);
+     num++
+    
+} while (num<=10);
