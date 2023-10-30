@@ -148,7 +148,8 @@ function converter(temp,unit) {
 kelvin value is ${kelvin}`);
     } 
     else{
-        console.log(i);
+        console.log("invalid temp value");
+
     }
     
 }
