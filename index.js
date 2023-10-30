@@ -103,4 +103,55 @@
 // isLeapYear(2028);
 
 
-const vowel = ["a","e","i","o","u","A","E","I","O","U"];
+// function celsiusToFahrenheit(celsius) {
+//     const fahrenheit = (celsius * 9/5) + 32;
+//     return fahrenheit;
+// }
+// console.log(celsiusToFahrenheit(36));
+
+
+// function fahrenheitToCelsius(fahrenheit) {
+//     const celsius = (fahrenheit - 32) * 5/9;
+//     return celsius;
+// }
+// console.log(fahrenheitToCelsius(96.8));
+
+
+
+
+// function celsiusToFahrenheit(celsius) {
+//     const fahrenheit = (celsius * 9/5) + 32;
+//     return fahrenheit;
+    
+// }
+// console.log(celsiusToFahrenheit(36));
+
+ 
+
+function converter(temp,unit) {
+    if (unit==="celsius") {
+        const fahrenheit = (temp * 9/5) + 32;
+        const celsius = ( fahrenheit- 32) * 5/9;
+        const kelvin =  celsius + 273.15
+        console.log(`the temp is ${fahrenheit } fahrenheit and the
+        the celsius value is ${celsius}  and
+ kelvin value is ${kelvin}` );
+        
+    } 
+    else if (unit==="fahrenheit") {
+        const celsius = (temp - 32) * 5/9;
+        const fahrenheit = (celsius * 9/5) + 32;
+
+        const kelvin = celsius + 273.15
+        console.log(`the temp is ${ celsius} celsius and the
+        fahrenheit value is ${fahrenheit}, 
+kelvin value is ${kelvin}`);
+    } 
+    else{
+        console.log(i);
+    }
+    
+}
+converter(100,"fahrenheit");
+
+
