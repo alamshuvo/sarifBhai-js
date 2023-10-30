@@ -77,3 +77,30 @@
 // console.log(simpleInterestCalculation(2,2,2));
 
 
+// function getRandomArbitrary(min,max) {
+//     return Math.random() * (max - min) + min;
+//   }
+  
+// console.log(getRandomArbitrary(1,6));  
+
+
+
+// const student = ["iftakhar","jwel","azgor","rahib","jabed khan","sharif"];
+// console.log(student.sort());
+// console.log(student);
+
+// const rollNumbers = [3,5,1,2,6,7,33,8,20,50];
+// console.log(rollNumbers.sort(function(a,b){return (a-b)}));
+
+// function isLeapYear(year) {
+//     if (year % 400 === 0 ||((year % 4 === 0)&& year % 100 !==0)) {
+//         console.log(`${year} is a leapyear!`);
+//     }else{
+//         console.log(`${year} is not a leapyear!`);
+//     }
+    
+// }
+// isLeapYear(2028);
+
+
+const vowel = ["a","e","i","o","u","A","E","I","O","U"];
