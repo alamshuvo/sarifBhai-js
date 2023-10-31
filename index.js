@@ -129,7 +129,7 @@
  
 
 // function converter(temp,unit) {
-//     if (unit==="celsius") {
+//     if (unit==="celsius" ) {
 //         const fahrenheit = (temp * 9/5) + 32;
 //         const celsius = ( fahrenheit- 32) * 5/9;
 //         const kelvin =  celsius + 273.15
@@ -143,6 +143,7 @@
 //         const fahrenheit = (celsius * 9/5) + 32;
 
 //         const kelvin = celsius + 273.15
+        
 //         console.log(`the temp is ${ celsius} celsius and the
 //         fahrenheit value is ${fahrenheit}, 
 // kelvin value is ${kelvin}`);
@@ -160,9 +161,18 @@
 // console.log(key);
 // } 
 
-let num = 11;
-do {
-    console.log(num);
-     num++
+// let num = 11;
+// do {
+//     console.log(num);
+//      num++
     
-} while (num<=10);
+// } while (num<=10);
+
+
+const number =[1,2,3,4,5,6,5,2,6,3,4,];
+
+const duplicates =number.filter(function (value, index, array ) {
+     return array.indexOf(value)!==index ;
+    
+})
+console.log(duplicates);
