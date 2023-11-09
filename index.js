@@ -169,10 +169,23 @@
 // } while (num<=10);
 
 
-const number =[1,2,3,4,5,6,5,2,6,3,4,];
+// const number =[1,2,3,4,5,6,5,2,6,3,4,];
 
-const duplicates =number.filter(function (value, index, array ) {
-     return array.indexOf(value)!==index ;
+// const duplicates =number.filter(function (value, index, array ) {
+//      return array.indexOf(value)!==index ;
     
-})
-console.log(duplicates);
+// })
+// console.log(duplicates);
+
+
+
+
+// const number =[1,2,3,4,5,6,5,2,6,3,4,];
+
+// const duplicates =number.filter(function (value, index, array ) {
+//      return array.indexOf(value)===index ;
+    
+// })
+// console.log(duplicates);
+
+
